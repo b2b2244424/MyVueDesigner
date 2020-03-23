@@ -1,0 +1,8 @@
+{
+    "styles": {
+        "width": 375,
+        "height": 500,
+        "zIndex": "1",
+        "backgroundColor": "#fff"
+    }
+}

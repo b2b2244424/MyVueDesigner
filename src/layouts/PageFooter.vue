@@ -1,0 +1,62 @@
+<!-- 网站尾部组件 -->
+<template>
+  <div class="footer-container">
+    <ul class="footer-list">
+      <li>
+        <span>@2018 粤ICP备18120804号</span>
+      </li>
+      <li>
+        <a href="#">关于我们</a>
+      </li>
+      <li>
+        <a href="#">帮助文档</a>
+      </li>
+    </ul>
+
+    <ul class="footer-list">
+      <li>
+        <a href="http://www.chengxuunion.com">编程之道</a>
+      </li>
+      <li>
+        <a href="https://www.csdn.net/">CSDN</a>
+      </li>
+      <li>
+        <a href="https://www.oschina.net/">开源中国</a>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script lang="ts">
+import { Component, Prop, Vue } from "vue-property-decorator";
+@Component({})
+export default class PageFooter extends Vue {}
+</script>
+
+<style scoped>
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.footer-list {
+  list-style: none;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  font-size: 12px;
+}
+
+.footer-list li {
+  margin-right: 16px !important;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+</style>
